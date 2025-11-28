@@ -1,0 +1,14 @@
+{
+  "name": "Gazel Döviz",
+  "short_name": "Gazel",
+  "description": "Güvenilir döviz bürosu - Anlık kurlar ve döviz çevirici",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["finance", "business", "utilities"],
+  "lang": "tr-TR",
+  "dir": "ltr"
+}

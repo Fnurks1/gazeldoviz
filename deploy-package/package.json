@@ -1,0 +1,85 @@
+{
+  "name": "gazel-doviz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern döviz bürosu web sitesi - Anlık kurlar, döviz çevirici ve grafikler",
+  "author": "Gazel Döviz",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "type-check": "tsc --noEmit",
+    "test": "jest --watch",
+    "test:ci": "jest --ci --coverage",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "cypress open",
+    "test:e2e:headless": "cypress run",
+    "analyze": "ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.0.4",
+    "@tanstack/react-query": "^5.14.6",
+    "axios": "^1.13.2",
+    "chart.js": "^4.4.1",
+    "cheerio": "^1.1.2",
+    "clsx": "^2.0.0",
+    "date-fns": "^3.0.6",
+    "lucide-react": "^0.303.0",
+    "next": "^14.0.4",
+    "next-pwa": "^5.6.0",
+    "node-cache": "^5.1.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.4",
+    "tailwind-merge": "^2.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.0.4",
+    "@sentry/nextjs": "^7.91.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.19",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.1",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "autoprefixer": "^10.4.21",
+    "cypress": "^13.6.2",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10",
+    "tailwindcss": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
